@@ -1,0 +1,23 @@
+.page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    z-index: 100;
+    margin-top: 10px;
+    transform: translateY(-20px);
+
+}
+
+
+.pagination-button:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
+    color: gray ;
+}
+
+.pagination-button {
+    cursor: pointer;
+    width: 50px;
+}

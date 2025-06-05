@@ -1,0 +1,22 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    height: 100vh;
+}
+.header {
+    padding-left:30px;
+    color: rgba(128, 128, 128, 0.435);
+    background-color: #F9F9F9;
+    font-size: auto;
+    font-weight: 400;
+}

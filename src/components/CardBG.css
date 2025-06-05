@@ -1,0 +1,34 @@
+.cardBG-container {
+    background-color: white;
+    width: 450px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    box-shadow: 0 5px 6px rgb(227, 227, 227);
+    position: absolute;
+    transform: rotate(5deg);
+    z-index: 0;
+    background-color: white;
+    filter: blur(0.8px);
+    opacity: 0.8;
+    
+}
+
+.cardBG-container h1,p {
+    margin: 0px;
+}
+
+.cardBG-container h1 {
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.cardBG-container p {
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+
