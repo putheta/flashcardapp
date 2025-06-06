@@ -1,0 +1,24 @@
+.Navbar-container {
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    width: 20vw;
+    box-shadow: 1px 2px 10px rgba(128, 128, 128, 0.373);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); /* สำหรับ Safari */
+    background-color: rgba(255, 255, 255, 0.3); /* โปร่งแสงเล็กน้อย */
+}
+
+.burger-botton:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.Sidenav-container {
+    height: 100vh;
+
+}
+
+.toggle {
+
+}

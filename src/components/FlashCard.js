@@ -5,8 +5,8 @@ import "./FlashCard.css";
 import KanjiData from "./KanjiData";
 import CardBack from "./CardBack";
 
-function FlashCard({ CurrentIndex, Click, setClick }) {
-  const CurrentKanjis = KanjiData[CurrentIndex];
+function FlashCard({ CurrentIndex , Shuffled }) {
+  const CurrentKanjis = Shuffled[CurrentIndex];
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => setIsFlipped(!isFlipped);
